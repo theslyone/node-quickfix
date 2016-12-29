@@ -12,6 +12,9 @@ This is a node.js wrapper of the popular QuickFIX library. Information about Qui
 4. After installing copy "config.h" from the install directory to your include directory (usually /usr/local/include/quickfix)
 5. Include this module in your package.json file.
 
+###Note###
+The binding.gyp file has been modified to enable build on the windows platform, it might require a little additional customization before build can be successful.
+
 ###Features######
 
 This module currently supports creating an Acceptor, an Initiator, and retrieving individual Sessions.
