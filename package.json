@@ -1,0 +1,29 @@
+{
+  "name": "node-quickfix",
+  "version": "2.0.9",
+  "scripts": {
+    "preinstall": "node-gyp rebuild",
+    "preuninstall": "rm -rf build/*",
+    "test": "mocha"
+  },
+  "main": "index.js",
+  "description": "This is a wrapper for the Quickfix C++ library to be used within node.js applications",
+  "author": {
+    "name": "Kermen Deol",
+    "email": "kermen.deol@electronifie.com"
+  },
+  "dependencies": {
+    "nan": "^2.4.0"
+  },
+  "devDependencies": {
+    "dateformat": "^1.0.8",
+    "mocha": "^2.2.5",
+    "mocha-jenkins-reporter": "^0.1.9",
+    "segfault-handler": "^1.0.0",
+    "should": "^6.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/electronifie/node-quickfix"
+  }
+}
